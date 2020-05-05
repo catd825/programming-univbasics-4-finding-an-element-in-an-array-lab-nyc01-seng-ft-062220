@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   while count < array.length do #loop over length of array
     if array[count] == value_to_find #if index in array is the one to find, then..
       found_value_index = count #that index equals count at that point in time
-      return count
+      return count #returns count every time there is a match
     end
     count += 1
   end
